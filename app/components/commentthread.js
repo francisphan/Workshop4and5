@@ -12,6 +12,9 @@ export default class CommentThread extends React.Component {
             </li>
           )
         })}
+        <li className="media">
+          <CommentEntry />
+        </li>
       </ul>
     )
   }
