@@ -4,6 +4,6 @@ import Feed from './components/feed';
 import { getFeedData } from './server';
 
 ReactDOM.render(
-  <Feed />,
+  <Feed user={4}/>,
   document.getElementById('fb-feed')
 );
