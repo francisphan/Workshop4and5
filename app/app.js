@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Feed from './components/feed';
-import { getFeedData } from './server';
+import Feed from './components/feed.js';
+import { getFeedData } from './server.js';
 
 ReactDOM.render(
   <Feed user={4}/>,
